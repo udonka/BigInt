@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mishii/program/nisin/bigint.cpp
+bigint.h
+/home/mishii/program/nisin/bigint.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+
+/home/mishii/program/nisin/bigint.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+
+/home/mishii/program/nisin/main.cpp
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+bigint.h
+/home/mishii/program/nisin/bigint.h
+
